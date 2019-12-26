@@ -18,7 +18,7 @@
                 <td><button onclick="lightcontroller(0)" class="waves-effect waves-light btn-large">Off</button></td>
             </tr>
             <tr>
-                <td><img src="/sprites/off.png" height="100px" width="150px" id="tv"></td>
+                <td><img src="/sprites/tvoff.png" height="100px" width="150px" id="tv"></td>
                 <td><button onclick="tvcontroller(1)" class="waves-effect waves-light btn-large">On</button></td>
                 <td><button onclick="tvcontroller(0)" class="waves-effect waves-light btn-large">Off</button></td>
             </tr>
@@ -47,15 +47,15 @@
 
         function tvcontroller(tv69)
         {
-            var tvSprite = "/sprites/off.png";
+            var tvSprite = "/sprites/tvoff.png";
 
             if(tv69 == 1)
             {
-                tvSprite = "/sprites/ton.png";
+                tvSprite = "/sprites/tvon.png";
             }
             if(tv69 == 0)
             {
-                tvSprite = "/sprites/off.png";
+                tvSprite = "/sprites/tvoff.png";
             }
             document.getElementById("tv").src=tvSprite;
         }
