@@ -18,7 +18,6 @@
     </tr>
 </table>               
 </form>
-
 <?php
 $setmode27 = shell_exec("gpio -g mode 27 output");
 if(isset($_GET["tvOFF"]))

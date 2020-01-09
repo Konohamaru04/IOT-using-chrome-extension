@@ -20,7 +20,6 @@
     </tr>
 </table>               
 </form>
-
 <?php
 $setmode22 = shell_exec("gpio -g mode 22 output");
 if(isset($_GET["fanON"]))

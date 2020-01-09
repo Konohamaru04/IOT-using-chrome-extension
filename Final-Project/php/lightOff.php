@@ -18,7 +18,6 @@
     </tr>
 </table>               
 </form>
-
 <?php
 $setmode17 = shell_exec("gpio -g mode 17 output");
 if(isset($_GET["lightON"]))
